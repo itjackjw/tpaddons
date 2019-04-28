@@ -1,0 +1,31 @@
+{
+  "name": "itjackjw/tpaddons",
+  "description": "这个是一个tpaddons",
+  "minimum-stability": "dev",
+  "license": "Apache-2.0",
+  "version": "1.1.7",
+  "authors": [
+    {
+      "name": "itjack",
+      "email": "1092428238@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "topthink/think-helper": ">=1.0.4",
+    "topthink/think-installer": ">=1.0.10"
+  },
+  "autoload": {
+    "psr-4": {
+      "itjack\\tpaddons\\": "src/"
+    },
+    "files": [
+      "src/common.php"
+    ]
+  },
+  "extra": {
+    "think-config": {
+      "addons": "src/config.php"
+    }
+  }
+}
